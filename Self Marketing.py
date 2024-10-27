@@ -48,16 +48,3 @@ x = sm.add_constant(data['GDP'])
 y = data['USEUR']
 model = sm.OLS(y, x).fit()
 print(model.summary())
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
